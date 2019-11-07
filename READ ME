@@ -1,4 +1,4 @@
-The following instructions show how to set up the TestCafe test env. And run the automation test script provided (HomeTest.js)
+The following instructions show how to set up the TestCafe test env. And run the automation test script provided (Test.js)
  
 1- install node.js if you do not already have it installed.
  
@@ -14,15 +14,15 @@ The following instructions show how to set up the TestCafe test env. And run the
 5- create 2 more directories inside your automation directory and call them
    pages and tests
    Copy the BasePage.js inside the pages directory and
-   Copy the HomeTest.js file inside the tests directory
+   Copy the Test.js file inside the tests directory
  
-6- to run the HomeTest.js directory 
+6- to run the Test.js directory 
    cd to automation/tests 
    and type the following command
-   testcafe chrome HomeTest.js --speed .75
+   testcafe chrome Test.js --speed .75
  
    To run the script heedlessly type the following
-   testcafe "chrome:headless"  HomeTest.js
+   testcafe "chrome:headless"  Test.js
  
    
  
