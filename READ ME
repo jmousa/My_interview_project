@@ -1,4 +1,4 @@
-The following instructions show how to set up the TestCafe test env. And run the automation test script provided (Test.js)
+The following instructions show how to set up the TestCafe test env. And run the automation test script provided (test.js)
  
 1- install node.js if you do not already have it installed.
  
