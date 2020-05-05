@@ -14,7 +14,7 @@ The following instructions show how to set up the TestCafe test env. And run the
 5- create 2 more directories inside your automation directory and call them
    pages and tests
    Copy the BasePage.js inside the pages directory and
-   Copy the Test.js file inside the tests directory
+   Copy the test.js file inside the tests directory
  
 6- to run the Test.js directory 
    cd to automation/tests 
