@@ -10,11 +10,6 @@ test('Correct title displays', async t => {
         .eql("name game")
 });
  
-// the idea is to set up an infinite loop so that the script keeps running //as long as
-// the user is interacting with the application. but the guys at //stackoverflow seem 
-// to think that are some issues with using the following construct in //javascript.
-// while(1) and while(true) as well as for (;;) {} and it seems that they //are right.
-// OK, let's go with the old fashioned approach. it always works
  
 const maxTry = 1000;
 let count = 0;
