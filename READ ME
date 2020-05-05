@@ -19,10 +19,10 @@ The following instructions show how to set up the TestCafe test env. And run the
 6- to run the Test.js directory 
    cd to automation/tests 
    and type the following command
-   testcafe chrome Test.js --speed .75
+   testcafe chrome test.js --speed .75
  
    To run the script heedlessly type the following
-   testcafe "chrome:headless"  Test.js
+   testcafe "chrome:headless"  test.js
  
    
  
